@@ -1,0 +1,129 @@
+/* .navbar__items {
+    overflow: hidden;
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  } */
+
+  header {
+	/* display: table;
+	position: relative;
+	width: 100%;
+	height: 60px; */
+}
+ul {
+    display: flex;
+    gap: 275px;
+    flex-direction: row;
+    padding-bottom: 10px;
+    background-color: #F4F1ED;
+    border: solid grey 2px;
+    flex-basis: 50%;
+    padding-left: 30px;
+}
+@media (max-width: 800px) {
+    ul {
+      flex-direction: column;
+    }
+  }
+
+.text-title {
+    background-image: url(images/thread.png);
+    background-repeat: no-repeat;
+    font-size: 96px;
+    background-position: center left;
+    padding-left: 30px;
+    position: relative;
+    z-index: 2;
+}
+
+.image-student {
+    background-image: url(images/students.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    /* width: 1097px; */
+    height: 891px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+}
+
+
+article {
+    white-space: pre-line;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+p {
+    padding-left: 30px;
+}
+.joing-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 581px;
+    height: 113px; 
+    background-color:  #1e3daf;
+    background: linear-gradient(to right,  #091D73, #3E5FC2);
+    font-size:0.875em;
+    left:-60px;
+    margin-top:35px;
+}
+.text-button {
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    color: #fff;
+}
+.arrow-join-button {
+    max-width: 100%;
+}
+
+.text-lerning-title {
+    padding-top: 10%;
+}
+
+
+.lerning-information {
+    display: flex;
+    gap: 275px;
+    flex-direction: row;
+
+}
+.text-lerning-title {
+    padding-left: 30px;
+
+}
+.text-market {
+    padding-top: 125px;
+    font-size: 24px;
+}
+.images-laborants {
+    background-image: url(images/mesh.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    height: 891px;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    padding-left: 150px;
+    padding-top: 150px;
+}
+.images-older {
+    /* background-image: url(images/older.svg); */
+    height:212px;
+    width:430px;
+    left: 30px;
+    top: 1200px;
+    position: absolute;
+}
+.images-quantity {
+    /* background-image: url(images/older.svg); */
+    height:248px;
+    width:430px;
+    left: 1100px;
+    top: 1800px;
+    position: absolute;
+}
